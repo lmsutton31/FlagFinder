@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		59E129AD2F99311F00CCAD86 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 59E129AC2F99311F00CCAD86 /* FirebaseAuth */; };
+		59E129AF2F99311F00CCAD86 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 59E129AE2F99311F00CCAD86 /* FirebaseFirestore */; };
+		59E129B12F99311F00CCAD86 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 59E129B02F99311F00CCAD86 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		59E1299D2F99306600CCAD86 /* FlagFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		59E129E22F997BF300CCAD86 /* Exceptions for "FlagFinder" folder in "FlagFinder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 59E1299C2F99306600CCAD86 /* FlagFinder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		59E1299F2F99306600CCAD86 /* FlagFinder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				59E129E22F997BF300CCAD86 /* Exceptions for "FlagFinder" folder in "FlagFinder" target */,
+			);
 			path = FlagFinder;
 			sourceTree = "<group>";
 		};
@@ -23,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E129AD2F99311F00CCAD86 /* FirebaseAuth in Frameworks */,
+				59E129AF2F99311F00CCAD86 /* FirebaseFirestore in Frameworks */,
+				59E129B12F99311F00CCAD86 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,9 @@
 			);
 			name = FlagFinder;
 			packageProductDependencies = (
+				59E129AC2F99311F00CCAD86 /* FirebaseAuth */,
+				59E129AE2F99311F00CCAD86 /* FirebaseFirestore */,
+				59E129B02F99311F00CCAD86 /* FirebaseStorage */,
 			);
 			productName = FlagFinder;
 			productReference = 59E1299D2F99306600CCAD86 /* FlagFinder.app */;
@@ -94,6 +119,9 @@
 			);
 			mainGroup = 59E129942F99306600CCAD86;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				59E129AB2F99311F00CCAD86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 59E1299E2F99306600CCAD86 /* Products */;
 			projectDirPath = "";
@@ -256,9 +284,9 @@
 				DEVELOPMENT_TEAM = BGJH87J8MN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlagFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,9 +316,9 @@
 				DEVELOPMENT_TEAM = BGJH87J8MN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlagFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,6 +360,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59E129AB2F99311F00CCAD86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59E129AC2F99311F00CCAD86 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E129AB2F99311F00CCAD86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		59E129AE2F99311F00CCAD86 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E129AB2F99311F00CCAD86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		59E129B02F99311F00CCAD86 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E129AB2F99311F00CCAD86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59E129952F99306600CCAD86 /* Project object */;
 }
