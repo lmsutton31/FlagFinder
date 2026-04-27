@@ -21,6 +21,7 @@ bucket list for future play.
 <a href="https://www.youtube.com/watch?v=vr1g6NWCCNY" target="_blank">
   <img src="https://img.youtube.com/vi/vr1g6NWCCNY/hqdefault.jpg" alt="Watch the video" />
 </a>
+
 ## Screenshots
 [PASTE YOUR SCREENSHOTS HERE]
 
