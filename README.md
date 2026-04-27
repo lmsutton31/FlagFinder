@@ -24,5 +24,5 @@ bucket list for future play.
 [PASTE YOUR SCREENSHOTS HERE]
 
 ## Contact
-- LinkedIn: linkedin.com/in/luke-sutton-b78158291/)
+- LinkedIn: linkedin.com/in/luke-sutton-b78158291/
 - Email: suttonlb@bc.edu
