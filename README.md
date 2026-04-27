@@ -18,7 +18,7 @@ bucket list for future play.
 - Codable structs with @DocumentID for Firestore
 
 ## Demo Video
-[PASTE YOUR YOUTUBE THUMBNAIL MARKUP HERE]
+[![FlagFinder Demo](https://img.youtube.com/vi/vr1g6NWCCNY/0.jpg)](https://www.youtube.com/shorts/vr1g6NWCCNY)
 
 ## Screenshots
 [PASTE YOUR SCREENSHOTS HERE]
