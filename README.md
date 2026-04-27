@@ -18,11 +18,13 @@ bucket list for future play.
 - Codable structs with @DocumentID for Firestore
 
 ## Demo Video
-[PASTE YOUR YOUTUBE THUMBNAIL MARKUP HERE]
+<a href="https://www.youtube.com/watch?v=vr1g6NWCCNY" target="_blank">
+  <img src="https://img.youtube.com/vi/vr1g6NWCCNY/hqdefault.jpg" alt="Watch the video" />
+</a>
 
 ## Screenshots
 [PASTE YOUR SCREENSHOTS HERE]
 
 ## Contact
-- LinkedIn: linkedin.com/in/lukesutton
-- Email: luke.sutton@bc.edu
+- LinkedIn: linkedin.com/in/luke-sutton-b78158291/
+- Email: suttonlb@bc.edu
