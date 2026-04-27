@@ -11,7 +11,10 @@ import FirebaseAuth
 import FirebaseFirestore
  
 struct MyCoursesView: View {
-    @FirestoreQuery(collectionPath: "ratings") var ratings: [CourseRating]
+    @FirestoreQuery(
+        collectionPath: "ratings",
+        predicates: [.whereField("userId", isEqualTo: Auth.auth().currentUser?.uid ?? "")]
+    ) var ratings: [CourseRating]
     
     var sTier: [CourseRating] {
         ratings.filter { $0.tierLabel == "S" }.sorted { $0.score > $1.score }

@@ -41,7 +41,6 @@ struct ProfileView: View {
             ScrollView {
                 VStack(spacing: 24) {
                     
-                    // MARK: Avatar & Email
                     VStack(spacing: 8) {
                         Image(systemName: "person.crop.circle.fill")
                             .font(.system(size: 72))
@@ -53,7 +52,7 @@ struct ProfileView: View {
                     }
                     .padding(.top)
                     
-                    // MARK: Stats
+                    
                     HStack(spacing: 12) {
                         StatCard(title: "Played", value: "\(ratings.count)")
                         StatCard(title: "Avg Rating", value: ratings.isEmpty ? "—" : String(format: "%.1f", averageScore))
@@ -61,7 +60,6 @@ struct ProfileView: View {
                     }
                     .padding(.horizontal)
                     
-                    // MARK: Best Course
                     if let best = bestCourse {
                         VStack(alignment: .leading, spacing: 8) {
                             Text("Best Course")
@@ -97,7 +95,6 @@ struct ProfileView: View {
                         }
                     }
                     
-                    // MARK: Bucket List
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
                             Text("Bucket List")
@@ -146,7 +143,6 @@ struct ProfileView: View {
                         }
                     }
                     
-                    // MARK: Sign Out
                     Button("Sign Out") {
                         showingAlert = true
                     }
