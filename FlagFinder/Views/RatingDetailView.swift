@@ -31,7 +31,6 @@ struct RatingDetailView: View {
         ScrollView {
             VStack(spacing: 0) {
                 
-                // MARK: Map
                 Map {
                     Marker(rating.courseName, coordinate: coordinate)
                         .tint(Color("flagDarkGreen"))
@@ -45,7 +44,6 @@ struct RatingDetailView: View {
                 
                 VStack(alignment: .leading, spacing: 16) {
                     
-                    // MARK: Score
                     HStack(alignment: .firstTextBaseline, spacing: 4) {
                         Text(String(format: "%.1f", rating.score))
                             .font(.system(size: 52, weight: .semibold))
@@ -63,7 +61,6 @@ struct RatingDetailView: View {
                             .clipShape(Capsule())
                     }
                     
-                    // MARK: Tags
                     if !rating.tags.isEmpty {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
@@ -80,7 +77,6 @@ struct RatingDetailView: View {
                         }
                     }
                     
-                    // MARK: Note
                     if !rating.note.isEmpty {
                         Text("\"\(rating.note)\"")
                             .font(.subheadline)
@@ -90,7 +86,6 @@ struct RatingDetailView: View {
                     
                     Divider()
                     
-                    // MARK: Photos
                     HStack {
                         Text("Photos")
                             .font(.headline)

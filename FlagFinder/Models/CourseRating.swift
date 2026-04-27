@@ -38,7 +38,6 @@ struct CourseRating: Identifiable, Codable {
     }
 }
 
-// Preview helper - matches Spot.preview pattern
 extension CourseRating {
     static var preview: CourseRating {
         CourseRating(
@@ -58,7 +57,6 @@ extension CourseRating {
     }
 }
 
-// Available tags users can apply to a rating
 struct CourseTags {
     static let all: [String] = [
         "Scenic views",

@@ -12,7 +12,6 @@ import SwiftUI
 @Observable
  
 class LocationManager: NSObject, CLLocationManagerDelegate {
-    // *** Always add info.plist message for Privacy
     
     var location: CLLocation?
     private let locationManager = CLLocationManager()
@@ -41,7 +40,6 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     }
 }
  
-//Delegate methods that apple has created and will call, but that we filled out
 extension LocationManager {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let newLocation = locations.last else {
@@ -51,7 +49,6 @@ extension LocationManager {
         //call the callback function to indicate weve updated a location
         locationUpdated?(newLocation)
         
-        //you can uncomment this when you only want to get the location once, not repeatedly
         manager.stopUpdatingLocation()
     }
     

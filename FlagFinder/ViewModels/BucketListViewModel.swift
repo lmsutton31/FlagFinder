@@ -36,7 +36,7 @@ struct BucketListViewModel {
         }
     }
     
-    // Check if a course is already in the user's bucket list
+    // Check if course is already in  bucket list
     static func isInBucketList(courseId: String, bucketList: [BucketList]) -> Bool {
         bucketList.contains(where: { $0.courseId == courseId })
     }

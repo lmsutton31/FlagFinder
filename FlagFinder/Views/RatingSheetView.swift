@@ -29,7 +29,7 @@ struct RatingSheetView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     
-                    // MARK: Score slider
+                  
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
                             Text("Score")
@@ -53,7 +53,7 @@ struct RatingSheetView: View {
                     
                     Divider()
                     
-                    // MARK: Round Details
+                  
                     VStack(alignment: .leading, spacing: 12) {
                         Text("Round Details")
                             .font(.headline)
@@ -89,7 +89,7 @@ struct RatingSheetView: View {
                     
                     Divider()
                     
-                    // MARK: Tags
+                    
                     VStack(alignment: .leading, spacing: 10) {
                         Text("Tags")
                             .font(.headline)
@@ -122,7 +122,7 @@ struct RatingSheetView: View {
                     
                     Divider()
                     
-                    // MARK: Note
+                
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Note (optional)")
                             .font(.headline)
