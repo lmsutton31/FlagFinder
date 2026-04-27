@@ -18,10 +18,10 @@ bucket list for future play.
 - Codable structs with @DocumentID for Firestore
 
 ## Screenshots
-<img width="603" height="1311" alt="IMG_3734" src="https://github.com/user-attachments/assets/7c5f3307-1cee-4a53-96d3-68793351ab94" />
-<img width="603" height="1311" alt="IMG_3736" src="https://github.com/user-attachments/assets/b90978fe-748d-472d-9787-8bd8419b4562" />
-<img width="603" height="1311" alt="IMG_3738" src="https://github.com/user-attachments/assets/cf98497c-a0a4-426b-9a0e-e9dd44cf59d6" />
-<img width="603" height="1311" alt="IMG_3740" src="https://github.com/user-attachments/assets/47cb451e-5659-47f3-9898-d996a2b3003e" />
+<img width="200" alt="IMG_3734" src="https://github.com/user-attachments/assets/7c5f3307-1cee-4a53-96d3-68793351ab94" />
+<img width="200" alt="IMG_3736" src="https://github.com/user-attachments/assets/b90978fe-748d-472d-9787-8bd8419b4562" />
+<img width="200" alt="IMG_3738" src="https://github.com/user-attachments/assets/cf98497c-a0a4-426b-9a0e-e9dd44cf59d6" />
+<img width="200" alt="IMG_3740" src="https://github.com/user-attachments/assets/47cb451e-5659-47f3-9898-d996a2b3003e" />
 
 ## Demo Video
 <a href="https://www.youtube.com/watch?v=vr1g6NWCCNY" target="_blank">
