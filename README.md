@@ -17,13 +17,21 @@ bucket list for future play.
 - Custom S/A/B/C/D/F tier rating system
 - Codable structs with @DocumentID for Firestore
 
+## Screenshots
+<img width="603" height="1311" alt="IMG_3734" src="https://github.com/user-attachments/assets/7c5f3307-1cee-4a53-96d3-68793351ab94" />
+<img width="603" height="1311" alt="IMG_3736" src="https://github.com/user-attachments/assets/b90978fe-748d-472d-9787-8bd8419b4562" />
+<img width="603" height="1311" alt="IMG_3738" src="https://github.com/user-attachments/assets/cf98497c-a0a4-426b-9a0e-e9dd44cf59d6" />
+<img width="603" height="1311" alt="IMG_3740" src="https://github.com/user-attachments/assets/47cb451e-5659-47f3-9898-d996a2b3003e" />
+
 ## Demo Video
 <a href="https://www.youtube.com/watch?v=vr1g6NWCCNY" target="_blank">
   <img src="https://img.youtube.com/vi/vr1g6NWCCNY/hqdefault.jpg" alt="Watch the video" />
 </a>
 
-## Screenshots
-[PASTE YOUR SCREENSHOTS HERE]
+## AI Usage Summary
+<a href="https://www.youtube.com/watch?v=47Yd8OR4emo" target="_blank">
+  <img src="https://img.youtube.com/vi/47Yd8OR4emo/hqdefault.jpg" alt="Watch the video" />
+</a>
 
 ## Contact
 - LinkedIn: linkedin.com/in/luke-sutton-b78158291/
